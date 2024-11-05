@@ -1,2 +1,4 @@
 # COVID-19-Test-Probability-and-Neural-Network-Classification
 This assignment explores the application of Bayesian statistics in evaluating COVID-19 test probabilities and demonstrates the use of a neural network for phishing detection.
+
+In the first part, the sensitivity and specificity of COVID-19 tests were analyzed to calculate posterior probabilities based on varying prior probabilities, highlighting how these factors influence test reliability. The second part employed the Skorch library to implement a neural network classifier on a phishing dataset, focusing on tuning hyperparameters such as learning rate and hidden layer sizes using GridSearchCV to achieve over 95% accuracy. The project culminated in visualizing model performance through confusion matrices and ROC curves, illustrating the effectiveness of machine learning in cybersecurity applications.
